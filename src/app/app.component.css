@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+ }
+
+ body{
+     margin:0;
+ }
+
+ .nav{
+     padding-top: 1px;
+     border-bottom: 1px solid rgba(128, 128, 128, 0.297);
+     margin-bottom: 0%;
+     padding-bottom: 0%;
+     background: linear-gradient(to left, rgb(155, 185, 239),rgb(212, 207, 207));
+     height: 100px;
+ }
+
+ .logo{
+
+     width: 40%;
+     float: left;
+     font-family: 'Qwitcher Grypen', cursive;
+     font-size: 50px;
+     text-align: center;
+     color: cornflowerblue;
+     margin-top: 7px;
+ }
+
+ .list{
+
+     width: 60%;
+     float: left;
+     margin-top: 7px;
+ }
+
+ .list ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 80px;
+ }
+
+ .list ul li{
+     display: inline-block;
+
+ }
+
+ .list ul li a{
+     text-decoration: none;
+     color: gray;
+     font-family: 'Qwitcher Grypen', cursive;
+     font-size: 40px;
+     margin: 70px;
+ }
+
+ .list ul li a:hover{
+     color:rgb(145, 145, 211);
+ }
+
+
+
+ .clr{
+     clear: left;
+ }
+
+ .sideNav{
+     width: 14%;
+     height: 30%;
+     border: 1px solid gray;
+     margin-top: 3%;
+     padding-top: 0%;
+     margin-left: 20px;
+     border-radius: 10%;
+     box-shadow: 10px 10px gray;
+ }
+
+ .items{
+
+ }
+
+ .items ul{
+     list-style: none;
+ }
+
+ .items ul li {
+     margin-top: 80px;
+     margin-bottom: 80px;
+
+ }
+
+ .items ul li a{
+     text-decoration: none;
+     color:rgb(145, 145, 211);
+     background-color: white;
+     font-family: 'Qwitcher Grypen', cursive;
+     font-size: 20px;
+ }
+
+ .items ul li a:hover{
+ color: gray;
+ }
+
+
